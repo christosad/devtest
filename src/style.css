@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./fonts/Helvetica/Helvetica-Light.woff');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./fonts/Helvetica/Helvetica.woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./fonts/Helvetica/Helvetica-Bold.woff');
+  font-weight: 600;
+}
+
+:root {
+  --body-bg: #2E3233;
+  --light-color: #DAE6E6;
+  --yellow: #EF3;
+  --dark: #2E3233;
+  --title-font: 'Helvetica';
+  --grid-gap: 3.2rem;
+  --main-easing: cubic-bezier(0, 0.55, 0.45, 1);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: calc(100vw / 1440 * 10);
+  cursor: none;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--body-bg);
+  font-family: var(--title-font);
+  padding: 0;
+  margin: 0;
+  font-size: 1.6rem;
+  cursor: none;
+}
+
+body a,
+body a:hover {
+  cursor: none;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+.main-heading {
+  font-size: 9.6rem;
+  font-weight: 500;
+  color: var(--light-color);
+  line-height: 1;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: var(--light-color);
+}
+
+ul {
+  margin: 0;
+}
+
+.custom-cursor {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 900;
+  top: -1.2rem;
+  left: -1.2rem;
+  pointer-events: none; 
+  background-color: var(--light-color);
+  transition: background-color 0.5s;
+  will-change: transform;
+}
+
+.custom-cursor.black {
+  background-color: var(--dark);
+}
+
+.custom-cursor.yellow {
+  background-color: var(--yellow);
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: calc(100vw / 1024 * 10);
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: calc(100vw / 550 * 10);
+  }
+
+  .main-heading {
+    font-size: 8rem;
+  }
+}
