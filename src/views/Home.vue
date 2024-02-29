@@ -1,9 +1,9 @@
 <template>
     <section class="hero-section">
         <h1 class="main-heading">Greece the birthplace of ideas</h1>
-        <div class="bubble1"><BubbleImages :url="`zz`" :src="`/src/assets/image1.jpg`" /></div>
-        <div class="bubble2"><BubbleImages :url="`zzz`" :src="`/src/assets/image2.jpg`" /></div>
-        <div class="bubble3"><BubbleImages :url="`zzzz`" :src="`/src/assets/image3.jpg`" /></div>
+        <div class="bubble1"><BubbleImages :url="`zz`" :src="`/assets/image1.jpg`" /></div>
+        <div class="bubble2"><BubbleImages :url="`zzz`" :src="`/assets/image2.jpg`" /></div>
+        <div class="bubble3"><BubbleImages :url="`zzzz`" :src="`/assets/image3.jpg`" /></div>
         <div class="content"><p>
             Right in the cradle of Western civilization and at the heart  of contemporary innovation, we invite innovative minds,  ecosystem-driving entrepreneurs and leading investors  to explore, grow, and invest in a country that blends rich history, captivating culture and a promising entrepreneurial ecosystem.
         </p>
