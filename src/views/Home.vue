@@ -1,15 +1,15 @@
 <template>
     <section class="hero-section">
         <h1 class="main-heading">Greece the birthplace of ideas</h1>
-        <div class="bubble1"><BubbleImages :url="`zz`" :src="`/assets/image1.jpg`" /></div>
-        <div class="bubble2"><BubbleImages :url="`zzz`" :src="`/assets/image2.jpg`" /></div>
-        <div class="bubble3"><BubbleImages :url="`zzzz`" :src="`/assets/image3.jpg`" /></div>
+        <div class="bubble1"><BubbleImages :url="`zz`" :src="image1" /></div>
+        <div class="bubble2"><BubbleImages :url="`zzz`" :src="image2" /></div>
+        <div class="bubble3"><BubbleImages :url="`zzzz`" :src="image3" /></div>
         <div class="content"><p>
             Right in the cradle of Western civilization and at the heart  of contemporary innovation, we invite innovative minds,  ecosystem-driving entrepreneurs and leading investors  to explore, grow, and invest in a country that blends rich history, captivating culture and a promising entrepreneurial ecosystem.
         </p>
         <MainButton :url="`/`" :text="`Become a citizen`" />
         </div>
-        <div class="bubble4"><BubbleImages :url="`zzzzz`" :src="`/src/assets/image4.jpg`" /></div>
+        <div class="bubble4"><BubbleImages :url="`zzzzz`" :src="image4" /></div>
     </section>
     <section class="section2">
         <h2 class="main-heading">Discover innovation opportunities</h2>
